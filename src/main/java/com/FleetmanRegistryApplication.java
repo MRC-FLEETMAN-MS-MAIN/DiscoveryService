@@ -21,9 +21,10 @@ public class FleetmanRegistryApplication {
 		SpringApplication.run(FleetmanRegistryApplication.class, args);
 	}
 
-
+	
 	@Bean
 	public EurekaInstanceConfigBean eurekaInstanceConfigBean(InetUtils utils) {
+
 
 		final EurekaInstanceConfigBean instance = new EurekaInstanceConfigBean(utils)
 		{
