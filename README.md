@@ -1,2 +1,1 @@
-# fleetman-registry
-The Discovery Service for Fleetman
+##MRC REGISTRY
